@@ -1,6 +1,7 @@
+#pragma once
 #include <stdio.h>
 void main()
-{	
+{
 	// 사분면
 	// 제 1 사분면 (+x,+y)
 	// 제 2 사분면 (-x,+y)
@@ -9,7 +10,7 @@ void main()
 	// y 절편 : (x[0], y)
 	// x 절편 : (x, y[0])
 	// 원점 : (x[0], y[0])
-	
+
 	int x = 0;
 	int y = 0;
 
@@ -41,20 +42,20 @@ void main()
 	{
 		printf("원점");
 	}
-	
-	
-	
-	
+
+
+
+
 	// != -> 같지않다
-	
+
 	// 논리 연산자
 	// 1 = 참
 	// 0 = 거짓
-	
+
 	// && (AND) : 두 개의 조건 모두 참이라면 조건을 실행
 	// || (OR) : 두 개의 조건에 하나라도 참이면 조건을 실행
 
-	
+
 	if (x == 10 && y == 20)
 	{
 		printf("논리 연산 AND가 참입니다.\n");
@@ -84,15 +85,15 @@ void main()
 	int value = 5;
 	switch (value)
 	{
-        case 0: printf("0 입니다\n");
-			break;
-		
-		case 1: printf("1 입니다\n");
-			break;
-		default: printf("잘못 선택했습니다.\n");
+	case 0: printf("0 입니다\n");
+		break;
+
+	case 1: printf("1 입니다\n");
+		break;
+	default: printf("잘못 선택했습니다.\n");
 	}
-	
-	
+
+
 	// 대학 성적표
 	// A는 100 ~ 90 점
 	// B는 90 ~ 80 점
@@ -117,13 +118,13 @@ void main()
 		break;
 	default: printf("과락입니다");
 	}
-	
 
-    float variabel = 3.25;
-	
+
+	float variabel = 3.25;
+
 	switch (variable)
 	{
-	  case 3.25: printf("부동 소수점의 오차로 인해 switch의 조건을 사용할 수 없습니다.")
+	case 3.25: printf("부동 소수점의 오차로 인해 switch의 조건을 사용할 수 없습니다.")
 	}
 
 
