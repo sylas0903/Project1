@@ -27,6 +27,9 @@
     <ClInclude Include="%28조건%2922.8.12.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="%28스위치%2922.8.16.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
