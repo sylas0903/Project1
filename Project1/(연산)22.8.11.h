@@ -1,8 +1,9 @@
 #pragma once
 #include <stdio.h>
-/
+
 void main()
 {
+	/*
 	// 컴퓨터는 0 또는 1이라는 숫자로만 이해
 	// 십진법 <- 사람이 사용하는 숫자 체계 ( 0 ~ 9 )
 	// 이진법 <- 컴퓨터가 사용하는 숫자 체계 ( 0 ~ 1 )
@@ -67,5 +68,5 @@ void main()
 	// 특정한 자료형이 표현할 수 있는 최솟값의 범위를 넘어서 연산을 수행하는 과정
 	char variable = -129;
 	printf("variable의 값 : %d", variable);
+	*/
 }
-/*#pragma once
