@@ -2,90 +2,99 @@
 
 void main()
 {
-	
-	// 반복문
-	// 프로그램 내에서 특정한 작업을 반복적으로	수행하는 명령문
-
-	
-	// 증감 연산자
+	// 구구단
 	/*
-	// 피연산자를 하나씩 증가시키거나 감소시킬 때 사용하는 연산자
+	for (int i = 2; i < 10; i++)
+	{
+		for (int j = 1; j < 10; j++)
+		{
+			printf("%d x %d = %d\n", i , j , i * j );
+		}
 
-	// 전위 (증가 감소) 문자 앞에 ++ or --
-	// 변수의 값을 증감시킨 후에 연산을 수행
-
-	int value = 0;
-
-	int result = ++value;
-	
-	printf("value 변수의 전위 증가한 값 : %d\n", result);
-
-
-
-
-	// 후위 (증가,감소) 문자 뒤에 ++ or --
-	// 연산을 수행한 후에 변수의 값을 증가시킨다
-
-	result = value++;
-	printf("value 변수의 후위 증가한 값 : %d\n", result);
-	printf("value의 결과 : %d", result);
+		printf("\n");
+	}
 	*/
 
-	// for 문
+	// while 문
 	/*
-	// 초기식을 연산하여 조건식의 결과에 따라 특정한 횟수만큼 반복하는 반복문
+	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 실행하는 반복문
 
-	// 1. 초기식 (i = 0)
-	// 2. 조건식 (i가 5보다 작을 때)
-	// 3. 실행하고 싶은 명령문
-	// 4. 증감식
+	int memory = 5;
 
-
-	for (int i = 0; i < 10; i++)
+	while (memory > 1)
 	{
-		printf("안녕하세요!?\n");
+		memory--;
+		printf("조건이 참입니다.\n");
+		break;
 	}
-	
-	
-	// for문을 이용해서 순차적으로 증가하는 초기식의 값을 출력
-	// 1 ~ 5 ,5 ~ 1
+	*/
 
-	for (int a = 5; a > 0; a--)
+	// do while 문
+	/*
+	// 조건과 상관없이 한 번의 작업을 수행한 다음 조건에 따라 명령문을 실행하는 반복문
+
+	int value = 5;
+
+	do
 	{
-		printf("%d\n", a);
+		printf("조건이 거짓입니다");
+		while (value == 10);
+	} 
+	*/
+	
+	// continue 문
+	/*
+	// 해당 조건문만 실행하지 않고, 반복문은 이어서 실행하는 제어문
+
+	for (int i = 0; i < 5; i++)
+	{
+		if (i % 3 == 0)
+			continue;
+		printf("%d ", i);
+	}
+	*/
 		
-
-	// 약수
-	// 어떤 수를 나누어 떨어지게하는 수
-
-	int value = 6;
-	for (int b = 1; b <= value; b++)
-	{
-		if (value % b == 0)
-		{
-			printf("%d ", b);
-		}
-
-	}
-	*/
-
-	// 이중 for 문
+	// 형 변환
+	// 서로 다른 자료형을 가지고 있는 변수끼리 연산이 이루어질 때
+	// 기존에 지정했던 자료형을 다른 자료형으로 변환하는 과정 
+	
+	// C언어에서는 정수와 정수를 연산하게 되면 무조건 정수의 값만 가질 수 있다
+			
+	// 암묵적 형 변환
 	/*
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 3; j++)
-		{
-			printf("안녕하세요\n");
-		}
-	}
+	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의 크기가 큰 자료형으로 변환되는 과정
+
+	printf("char의 크기 : %d\n", sizeof(char));
+	printf("short의 크기 : %d\n", sizeof(short));
+	printf("int의 크기 : %d\n", sizeof(int));
+	printf("float의 크기 : %d\n", sizeof(float));
+	printf("long의 크기 : %d\n", sizeof(long));
+
+	// int와long의 차이
+	// int는 32비트 운영체제와 64비트 운영체제에서도 4 byte의 크기를 가진다
+	// long은 32비트 운영체제에서는 4 byte이고 64비트 운영체제에서는 8 byte의 크기를 가진다
+	
+	// 단, 윈도우즈 64비트 운영체제에서는 4 byte 이다
+	
+
+	char x = 10;
+	short y = 20;
+
+	//  30  =  4 byte(int) + 4 byte(int)
+	int sum = x + y;
+
+	int z = 500; // 4 byte
+	char temp = z; // 1 byte
+
+	printf("temp의 값 : %d\n", temp);
+	
+	// 명시적 형 변환
+	int p0 = 10;
+	int p1 = 3;
+
+	float result = (float)p0 / p1;
+	printf("result의 값 : %f\n", result);
 	*/
 
-	for (int i = 0; i < 3; i++)
-	{
-		printf("주황색\n");
-		for (int j = 0; j < 3; j++)
-		{
-			printf("검은색\n");
-		}
-	}
+		
 }
