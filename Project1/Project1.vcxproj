@@ -134,6 +134,7 @@
     <ClInclude Include="%28조건%2922.8.12.h" />
     <ClInclude Include="%28스위치%2922.8.16.h" />
     <ClInclude Include="%28반복문%2922.8.17.h" />
+    <ClInclude Include="%28형 변환%2922.8.18.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp" />

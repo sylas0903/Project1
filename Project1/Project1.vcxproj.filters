@@ -33,6 +33,9 @@
     <ClInclude Include="%28반복문%2922.8.17.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="%28형 변환%2922.8.18.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
