@@ -36,6 +36,15 @@
     <ClInclude Include="%28형 변환%2922.8.18.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="(변수의 주소)22.8.19.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="(scanf)22.8.20.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="(배열)22.8.22.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">

@@ -1,3 +1,4 @@
+#pragma once
 #include <stdio.h>
 
 void main()
@@ -16,7 +17,7 @@ void main()
 	// ptr 변수가 가리키는 주소를 value에서 x 라는 변수의 주소로 변경
 	ptr = &x;
 	printf("ptr의 값 : %lf\n", *ptr);
-	
+
 
 	*ptr = 20.52;
 	printf("ptr의 값 : %lf\n", *ptr);
@@ -28,7 +29,7 @@ void main()
 	//  0    1    2    3    4
 	// [10] [20] [30] [40] [50] <- 배열의 요쇼(인덱스)
 	// 4 byte 메모리 공간으로 5개의 연속적인 메모리 공간을 생성
-	
+
 	int array[5];
 
 	// 배열의 경우 첫 번째 원소는 0부터 시작
@@ -52,7 +53,7 @@ void main()
 	*/
 
 	// 배열의 초기화
-    /*
+	/*
 	// 0번째요소 (10), 1번째 요소 (5), 2번째 요소(0)
 	int room[3] = { 10,5,0 };
 
@@ -71,15 +72,15 @@ void main()
 	// 컴파일러가 자동으로 계산
 	double team[] = { 5.1, 6.8, 7.7, 49.63, 11.07 };
 	printf("team 배열의 크기 : %d\n", sizeof(team));
-	
+
 	for (int i = 0; i < 5; i++)
 	{
 		team[i] = 0;
 		printf("%d 번째 요소의 값 : %d\n", i, team[i]);
 	}
-	
-		
-	
+
+
+
 
 
 
@@ -92,7 +93,7 @@ void main()
 
 }
 
-	
-	
 
-	
+
+
+
