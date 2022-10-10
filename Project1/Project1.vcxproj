@@ -128,19 +128,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="%28변수%2922.8.9.h" />
-    <ClInclude Include="%28상수%2922.8.10.h" />
-    <ClInclude Include="%28연산%2922.8.11.h" />
-    <ClInclude Include="%28조건%2922.8.12.h" />
-    <ClInclude Include="%28스위치%2922.8.16.h" />
-    <ClInclude Include="%28반복문%2922.8.17.h" />
-    <ClInclude Include="%28형 변환%2922.8.18.h" />
-    <ClInclude Include="(scanf)22.8.20.h" />
-    <ClInclude Include="(배열)22.8.22.h" />
-    <ClInclude Include="(변수의 주소)22.8.19.h" />
+    <ClInclude Include="22.8.9%28변수%29.h" />
+    <ClInclude Include="22.8.10%28상수%29.h" />
+    <ClInclude Include="22.8.11%28연산%29.h" />
+    <ClInclude Include="22.8.12%28조건%29.h" />
+    <ClInclude Include="22.8.16%28스위치%29.h" />
+    <ClInclude Include="22.8.17%28반복문%29.h" />
+    <ClInclude Include="22.8.18%28형 변환%29.h" />
+    <ClInclude Include="22.8.20%28scanf%29.h" />
+    <ClInclude Include="22.8.24참%28문자열%29.h" />
+    <ClInclude Include="22.8.22%28배열%29.h" />
+    <ClInclude Include="22.8.19%28변수의 주소%29.h" />
+    <ClInclude Include="22.8.23%28이차원 배열%29.h" />
+    <ClInclude Include="22.8.29%28동적할당%29.h" />
+    <ClInclude Include="22.8.30%28추가필요, 재귀함수%29.h" />
+    <ClInclude Include="22.8.31%28함수 포인터%29.h" />
+    <ClInclude Include="22.9.1%28포인터 배열%29.h" />
+    <ClInclude Include="22.9.13%28가변인수%29.h" />
+    <ClInclude Include="22.9.19추가필.h" />
+    <ClInclude Include="22.9.2(구조체).h" />
+    <ClInclude Include="22.9.20(자기참조구조체).h" />
+    <ClInclude Include="22.9.21(문자열 함수).h" />
+    <ClInclude Include="22.9.22%28typedef함수%29.h" />
+    <ClInclude Include="22.9.24(더블 버퍼링).h" />
+    <ClInclude Include="22.9.26(미로).h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="22.9.5%28두점사이거리%29.h" />
+    <ClInclude Include="22.9.15%28파일입출력%29.h" />
+    <ClInclude Include="22.9.14%28추가필 열거형%29.h" />
+    <ClInclude Include="미로게임.h" />
+    <ClInclude Include="보충수업.h" />
+    <ClInclude Include="헤더.h" />
+    <ClInclude Include="헤더1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="소스.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="22.8.26추가.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
